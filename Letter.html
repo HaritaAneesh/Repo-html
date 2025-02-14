@@ -1,93 +1,61 @@
 <!DOCTYPE html>
-<html lang = "en">
+<html lang="en">
     <head>
-        <meta charset = "UTF-8">
-        <meta name = "viewport" content = "width=device-width, initial -scale = 1.0">
-        <title> My First HTML program</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Job Application Letter</title>
+        <link rel="stylesheet" type="text/css" href="Letter.css">
         <style>
-            body{
-             font-family: Arial, Helvetica, sans-serif;
-             background-color: rgb(219, 229, 229);
-             margin: 0;
-             padding: 20px;
-            }
-
-            .letter{
-                background-color:rgb(255, 255, 255);
-                max-width: 600px;
-                margin: auto;
-                padding: 20px;
-                border: 1px solid;
-                border-radius: 10px;
-                box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-                text-align: justify;
-            }
-
-            .address{
-                margin-bottom: 20px;
-            }
-
-            .address p{
-                margin: 0;
+            body {
+                font-family: Arial, sans-serif;
+                margin: 20px;
                 line-height: 1.5;
-                text-align: left;
             }
-
-            .subject p{
-                font-weight: bold;
-                background-color: aquamarine;
-                padding:10px;
-                border-radius: 5px;
+            .header {
                 text-align: center;
+                color: white;
+                background-color: darkslategray;
+                padding: 10px;
+                border-radius: 5px;
             }
-
-            p{
-                margin: 15px 0;
-                line-height: 1.6;
+            .address {
+                text-align: left;
+                font-weight: bold;
+                margin-bottom: 10px;
             }
-
-            iframe{
-                display: block;
-                margin: 20px auto;
-                border-radius: 10px;
-                width: 100%;
-
+            .content {
+                margin-top: 20px;
             }
         </style>
     </head>
-        
+
     <body>
-            <div class = "letter">
+        <h1 class="header">Application for Job</h1>
 
-                <div class = "address">
-                    <p>Harita Aneesh<br>Sector 15-1/A<br>Reliance Greens<br>Jamnagar<br>Gujarat<br>8799567237</p>
-                </div>
+        <address class="address">
+            Sector-15, 1/A<br>
+            Reliance Greens, Jamnagar<br>
+            Gujarat<br><br>
+            February 14, 2025
+        </address>
 
-                <div class = "address">
-                    <p>ABC<br>EFG<br>HIJ<br>KLM<br></p>
-                </div>
-                
-                <div class = "subject">
-                    <p><strong>Subject:</strong> Video for Reference</p>
-                </div>
+        <address class="address">
+            Hiring Manager<br>
+            Anvita Kakkar<br>
+            Reliance Greens<br>
+        </address>
 
-                <p>Dear Friend,</p>
+        <div class="content">
+            <p>Dear Hiring Manager,</p>
 
-                <p><i>I hope this letter finds you in good health and high spirits. I am writing this letter to inform you about the videos which you can use for referring for studying Data Science.</i></p>
+            <p>I am writing to express my interest in the Refinery Manager position at Reliance Greens. With my background in Business Management, I am confident in my ability to contribute effectively to your team.</p>
 
-                <p><i>This video would almost clear all concepts of data science in a detailed manner. It also includes text, reference papers, questions.</i></p>
+            <p>I am a dedicated and hardworking professional, committed to bringing my full effort and expertise to your organization. My strong leadership skills, combined with my ability to work in dynamic environments, make me a strong candidate for this role.</p>
 
-                <p><i>Looking forward to your response.</i></p>
+            <p>I would welcome the opportunity to discuss my qualifications further. Thank you for your time and consideration.</p>
 
-                <p><i>Best regards,</i></p>
-
-                <p><b><i>Harita Aneesh</i></b></p>
-
-                <iframe width="560" height="315"
-                    src = "https://www.youtube.com/embed/WEBUWYxaqLQ"
-                    frameborder = "0" allowfullscreen>
-                </iframe>
-            </div>
-        </body>
+            <p>Sincerely,</p>
+            <p>Harita Aneesh</p>
+        </div>
+    </body>
 </html>
-    
